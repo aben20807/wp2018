@@ -1,0 +1,54 @@
+body {
+    background-color: #FFFFFF;
+}
+
+#navbar {
+    color: #FFFFFF;
+}
+
+#btnlabel {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    cursor:pointer;
+    font-size: 300%;
+}
+
+#btn {
+    display: none;
+}
+
+#btn:checked ~ #page1 {
+    display: none;
+}
+
+#page2 {
+    display: none;
+}
+
+#btn:checked ~ #page2 {
+    display: block;
+}
+
+#bg {
+    background-image: url("https://images.unsplash.com/photo-1532774821765-7403258cb2fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcc084aab475993234207e806e0f3133&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -500px;
+}
+
+#view {
+    background-color: #FFFFFF;
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
