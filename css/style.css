@@ -20,20 +20,39 @@ body {
     display: none;
 }
 
+.page {
+    display: inline-block;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all .95s ease;
+}
+
 #btn:checked ~ #page1 {
-    display: none;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    transform: translateX(-50%);
 }
 
 #page2 {
-    display: none;
+    height: 100%;
+    width: 0%;
+    display:inline-block;
+    opacity: 0;
+    transition: all .95s ease;
+    transform: translateX(50%);
 }
 
 #btn:checked ~ #page2 {
-    display: block;
-}
-
-#btn:checked ~ #bg {
-    transform: scale(1.2);
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0%);
 }
 
 #bg {
@@ -66,10 +85,10 @@ body {
 }
 
 .row {
-    width: 60%;
+    width: 50%;
     position: absolute;
-    bottom: 30%;
-    right: 10%;
+    bottom: 40%;
+    right: 5%;
 }
 
 .block {
@@ -86,4 +105,10 @@ h1 {
     width: 50%;
     position: absolute;
     left: 10%;
+}
+
+.leftBlock {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
 }
