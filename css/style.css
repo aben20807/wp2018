@@ -25,14 +25,18 @@ body {
 }
 
 #page1 {
+    background-color: #FCFCFC;
+    color: #617287;
     height: 100%;
     width: 100%;
     opacity: 1;
     transform: translateX(0%);
-    transition: all .95s ease;
+    transition: all 1.95s ease;
 }
 
 #btn:checked ~ #page1 {
+    background-color: #617287;
+    color: #FCFCFC;
     height: 100%;
     width: 0%;
     opacity: 0;
@@ -40,15 +44,18 @@ body {
 }
 
 #page2 {
+    background-color: #FCFCFC;
+    color: #617287;
     height: 100%;
     width: 0%;
-    display:inline-block;
     opacity: 0;
-    transition: all .95s ease;
+    transition: all 1.95s ease;
     transform: translateX(50%);
 }
 
 #btn:checked ~ #page2 {
+    background-color: #617287;
+    color: #FCFCFC;
     height: 100%;
     width: 100%;
     opacity: 1;
@@ -99,6 +106,10 @@ body {
 
 h1 {
     font-size: 4vw;
+}
+
+a:visited {
+    color: inherit;
 }
 
 .titleBlock {
