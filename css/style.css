@@ -92,9 +92,10 @@ body {
 }
 
 .row {
+    height: 30%;
     width: 50%;
     position: absolute;
-    bottom: 40%;
+    top: 40%;
     right: 5%;
 }
 
@@ -113,13 +114,16 @@ a:visited {
 }
 
 .titleBlock {
+    height: 30%;
     width: 50%;
     position: absolute;
     left: 10%;
 }
 
 .leftBlock {
+    height: 30%;
+    width: 20%;
     position: absolute;
     left: 10%;
-    bottom: 30%;
+    top: 50%;
 }
