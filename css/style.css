@@ -121,11 +121,15 @@ body {
 
 #navbar li a {
     text-decoration: none;
-    color: FCFCFC;
+    color: #FCFCFC;
+}
+
+#navbar li a:visited {
+    color: inherit;
 }
 
 #view {
-    background-color: #FFFFFF;
+    background-color: #FCFCFC;
     height: 80%;
     width: 90%;
     position: absolute;
@@ -151,7 +155,7 @@ h1 {
     font-size: 4vw;
 }
 
-a:visited {
+.block a:visited {
     color: inherit;
 }
 
