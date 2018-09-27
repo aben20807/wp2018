@@ -1,0 +1,178 @@
+body {
+    background-color: #FCFCFC;
+    width: 100%;
+}
+
+#navbar {
+    color: #FCFCFC;
+}
+
+#btnlabel {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    cursor:pointer;
+    font-size: 3vw;
+    z-index: 1;
+}
+
+#btn {
+    display: none;
+}
+
+.page {
+    display: inline-block;
+}
+
+#page1 {
+    background-color: #FCFCFC;
+    color: #617287;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 1.95s ease;
+}
+
+#page1 a {
+    color: #617287;
+    transition: all 1.95s ease;
+}
+
+#btn:checked ~ #page1 {
+    background-color: #617287;
+    color: #FCFCFC;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+#btn:checked ~ #page1 a {
+    color: #FCFCFC;
+}
+
+#page2 {
+    background-color: #FCFCFC;
+    color: #617287;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    transition: all 1.95s ease;
+    transform: translateX(50%);
+}
+
+#page2 a {
+    color: #617287;
+    transition: all 1.95s ease;
+}
+
+#btn:checked ~ #page2 {
+    background-color: #617287;
+    color: #FCFCFC;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+#btn:checked ~ #page2 a {
+    color: #FCFCFC;
+}
+
+#bg {
+    background-image: url("https://images.unsplash.com/photo-1532774821765-7403258cb2fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcc084aab475993234207e806e0f3133&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#container {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#navbar {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 90%;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#navbar li {
+    float: left;
+    width: 40%
+}
+
+#navbar li a {
+    color: #FCFCFC;
+    font-size: 1.1vw;
+    text-decoration: none;
+}
+
+#navbar li a:visited {
+    color: inherit;
+}
+
+#view {
+    background-color: #FCFCFC;
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.row {
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.block {
+    font-size: 1.1vw;
+    width: 30%;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+.block a:visited {
+    color: inherit;
+}
+
+.titleBlock {
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    left: 10%;
+}
+
+.leftBlock {
+    font-size: 1.2vw;
+    height: 30%;
+    width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
