@@ -7,17 +7,15 @@ body {
     color: #FCFCFC;
 }
 
-#btnlabel {
-    position: absolute;
-    right: 10%;
+#btn {
+    background: none;
     bottom: 10%;
+    border: none;
     cursor:pointer;
     font-size: 3vw;
+    position: absolute;
+    right: 10%;
     z-index: 1;
-}
-
-#btn {
-    display: none;
 }
 
 .page {
