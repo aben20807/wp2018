@@ -1,5 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #FCFCFC;
+    height: 100%;
+    transition: all 1.95s ease;
     width: 100%;
 }
 
