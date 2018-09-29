@@ -29,59 +29,59 @@ body {
 }
 
 #page1 {
-    background-color: #FCFCFC;
+    /*background-color: transparent;
     color: #617287;
     height: 100%;
     width: 100%;
     opacity: 1;
     transform: translateX(0%);
-    transition: all 1.95s ease;
+    transition: all 1.95s ease;*/
 }
 
 #page1 a {
-    color: #617287;
-    transition: all 1.95s ease;
+    /*color: #617287;
+    transition: all 1.95s ease;*/
 }
 
 #btn:checked ~ #page1 {
-    background-color: #617287;
+    /*background-color: #617287;
     color: #FCFCFC;
     height: 100%;
     width: 0%;
     opacity: 0;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
 }
 
 #btn:checked ~ #page1 a {
-    color: #FCFCFC;
+    /*color: #FCFCFC;*/
 }
 
 #page2 {
-    background-color: #FCFCFC;
+    /*background-color: #FCFCFC;
     color: #617287;
     height: 100%;
     width: 0%;
     opacity: 0;
     transition: all 1.95s ease;
-    transform: translateX(50%);
+    transform: translateX(50%);*/
 }
 
 #page2 a {
-    color: #617287;
-    transition: all 1.95s ease;
+    /*color: #617287;
+    transition: all 1.95s ease;*/
 }
 
 #btn:checked ~ #page2 {
-    background-color: #617287;
+    /*background-color: #617287;
     color: #FCFCFC;
     height: 100%;
     width: 100%;
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(0%);*/
 }
 
 #btn:checked ~ #page2 a {
-    color: #FCFCFC;
+    /*color: #FCFCFC;*/
 }
 
 #wrap {
@@ -142,11 +142,18 @@ body {
 
 #view {
     background-color: #FCFCFC;
+    color: #617287;
     height: 80%;
-    width: 90%;
+    left: 10%;
     position: absolute;
     top: 20%;
-    left: 10%;
+    transition: all 1.95s ease;
+    width: 90%;
+}
+
+#view a {
+    color: #617287;
+    transition: all 1.95s ease;
 }
 
 .row {
