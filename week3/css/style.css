@@ -145,6 +145,7 @@ body {
     color: #617287;
     height: 80%;
     left: 10%;
+    overflow: hidden;
     position: absolute;
     top: 20%;
     transition: all 1.95s ease;
@@ -193,4 +194,8 @@ h1 {
     position: absolute;
     left: 10%;
     top: 40%;
+}
+
+#p2t {
+    left: 100%;
 }
