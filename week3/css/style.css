@@ -162,7 +162,7 @@ body {
     width: 50%;
     position: absolute;
     top: 40%;
-    right: 5%;
+    left: 45%;
 }
 
 .block {
@@ -197,5 +197,13 @@ h1 {
 }
 
 #p2t {
+    left: 100%;
+}
+
+#r2 {
+    left: 100%;
+}
+
+#blockd {
     left: 100%;
 }

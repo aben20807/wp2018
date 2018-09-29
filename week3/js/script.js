@@ -29,16 +29,29 @@ function changeViewColor() {
   }
 }
 
+let p1t = $('#p1t');
+let p2t = $('#p2t');
+let r1 = $('#r1');
+let r2 = $('#r2');
+let b4 = $('#block4');
+let bd = $('#blockd');
+
 function slide() {
-  let p1t = $('#p1t');
-  let p2t = $('#p2t');
   if (!toggle) {
-    p1t.animate({"left":"-100%"}, 1000);
+    p1t.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+    r1.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+    b4.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+
     p2t.animate({"left":"10%"}, 1000);
-    p1t.animate({"left":"100%"}, 0);
+    r2.animate({"left":"45%"}, 1000);
+    bd.animate({"left":"10%"}, 1000);
   } else {
-    p2t.animate({"left":"-100%"}, 1000);
+    p2t.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+    r2.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+    bd.animate({"left":"-100%"}, 1000).animate({"left":"100%"}, 0);
+
     p1t.animate({"left":"10%"}, 1000);
-    p2t.animate({"left":"100%"}, 0);
+    r1.animate({"left":"45%"}, 1000);
+    b4.animate({"left":"10%"}, 1000);
   }
 }
